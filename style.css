@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /*border: 1px solid red;*/
+    list-style: none;
+    font-family: fantasy;
+}
+
+
+.navBar{
+    width:100%;
+    height: 62px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding-top: 10px;
+    position: fixed;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+li{
+    font-size: 32px;
+    float: right;
+    margin: 0px 10px;
+    min-width: 162px;
+}
+
+
+#logo{
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+
+.container{
+    width: 100%;
+    height: 9000px;
+    border: 1px pink solid;
+}
+
+.profolio{
+    border:1px red solid;
+    width: 100%;
+    height: 500px;
+    margin-top: 62px;
+    background-color: wheat;
+}
+
+.profilePic{
+    border: 3px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
