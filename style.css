@@ -3,57 +3,58 @@
     padding: 0px;
     margin: 0px;
     /*border: 1px solid red;*/
-    list-style: none;
-    font-family:monospace;
+    font-family:'Oswald', monospace, sans-serif;
+}
+html{
+    background-color: black;
 }
 
 
-.navBar{
-    width:100%;
+.navHeader{
+    width: 100%;
     height: 62px;
-    background-color: rgba(32, 32, 32,.9);
-    color: white;
-    padding-top: 10px;
+    background-color: rgb(226, 226, 226);
     position: fixed;
-}
-a{
-    color: white;
-    text-decoration: none;
+    top: 0;
+    z-index: 1;
+    border: 5px solid pink;
+    border-bottom-left-radius: 20px;
 }
 
 
-li{
-    font-size: 32px;
+.navHeader ul{
     float: right;
-    margin: 0px 10px;
-    min-width: 162px;
+    margin-top: 5px;
 }
 
-
-#logo{
-    font-size: 32px;
-    margin-left: 10px;
+.navHeader ul li{
+    display: inline-block;
+    color: black;    
+    font-size: xx-large;
+    margin: 0px 50px;
 }
 
-
-.container{
-    width: 100%;
-    height: 9000px;
-    border: 1px pink solid;
-}
-
-.profolio{
-    border:1px red solid;
-    width: 100%;
-    height: 500px;
+.firstBody{
+    /*border: 1px solid red;*/
     margin-top: 62px;
-    background-color: wheat;
+    width: 100%;
+    height: 800px;
+    position: relative;
 }
 
-.profilePic{
-    border: 3px solid blue;
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
+
+.left{
+position: absolute;
+left: 0;
+width: 50%;
+height: 700px;
+background-color: rgb(20, 20, 20);
 }
 
+.right{
+position: absolute;
+width: 50%;
+height: 700px;
+right: 0;
+background-color: rgb(255, 255, 255);
+}
